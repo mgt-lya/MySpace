@@ -1,0 +1,99 @@
+body, html {  
+
+    margin: 0;  
+
+    padding: 0;  
+
+    font-family: Arial, sans-serif;  
+
+}  
+
+  
+
+.navbar {  
+
+    background-color: blue; /* 导航栏背景色 */  
+
+    position: fixed; /* 固定定位 */  
+
+    top: 0; /* 顶部位置 */  
+
+    width: 100%; /* 全宽 */  
+
+    color: white; /* 文字颜色 */  
+
+    z-index: 1000; /* 确保在其他内容之上 */  
+
+}  
+
+  
+
+.navbar-container {  
+
+    display: flex; /* 弹性布局 */  
+
+    justify-content: space-between; /* 两端对齐 */  
+
+    align-items: center; /* 垂直居中 */  
+
+    padding: 10px 20px; /* 内边距 */  
+
+}  
+
+  
+
+.navbar-brand {  
+
+    text-decoration: none; /* 去掉下划线 */  
+
+    color: white; /* 品牌文字颜色 */  
+
+    font-size: 24px; /* 品牌文字大小 */  
+
+    font-weight: bold; /* 品牌文字加粗 */  
+
+}  
+
+  
+
+.navbar-menu {  
+
+    list-style: none; /* 去掉列表样式 */  
+
+    margin: 0; /* 外边距 */  
+
+    padding: 0; /* 内边距 */  
+
+    display: flex; /* 弹性布局 */  
+
+}  
+
+  
+
+.navbar-menu li {  
+
+    margin-left: 20px; /* 列表项左边距 */  
+
+}  
+
+  
+
+.navbar-menu a {  
+
+    text-decoration: none; /* 去掉下划线 */  
+
+    color: white; /* 链接文字颜色 */  
+
+    padding: 5px 10px; /* 链接内边距 */  
+
+    transition: background-color 0.3s; /* 背景色过渡效果 */  
+
+}  
+
+  
+
+.navbar-menu a:hover {  
+
+    background-color: darkblue; /* 悬停背景色 */  
+
+}
